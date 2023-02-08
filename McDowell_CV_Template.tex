@@ -27,9 +27,9 @@
 \usepackage{amsmath}
 
 % Set applicant's personal data for header
-\name{Gayle L. McDowell}
-\address{123 Spruce St, Apt 35 \linebreak Philadelphia PA 19103}
-\contacts{(555) 555-1212 \linebreak gayle@careercup.com}
+\name{Tom Bourton PhD}
+\address{London, UK \linebreak tbourton(at)gmail.com}
+\contacts{linkedin.com/in/tbourton \linebreak github.com/TBourton}
 
 \begin{document}
 
@@ -38,60 +38,61 @@
 	
 	% Print the content
 	\begin{cvsection}{Employment}
-		\begin{cvsubsection}{Software Engineer, Intern}{Apple Computer}{Summer 2004}
-			iChat AV			
+		\begin{cvsubsection}{Machine Learning Engineer}{Faculty AI}{July 2022 -- Present}			
 			\begin{itemize}
-				\item Reduced time to render the user’s buddy list by 75\% by implementing prediction algorithm.
-				\item Implemented iChat integration with OS X Spotlight Search by creating tool which extracts metadata from saved chat transcripts and provides metadata to a system-wide search database.
-				\item Redesigned chat file format and implemented backwards compatibility for search.
+                \item Deployed and built decision intelligence system for financial planning. Deployed using AWS, Kubernetes, FastAPI \& Dagster.
+                \item Delivered multiple projects, often as the only engineer on a project. Being the sole point of contact for all Software \& Data Engineering/DevOps/MLOps issues. Additionallyl: interfacing with Data Scientists, non-technical team members \& clients.
+				\item Wrote python client for submitting jobs into dagster programatically, and then retriving results from S3.
+                \item Set up and designed  ETL, retraining, inference, CI/CD and deployment pipelines.
 			\end{itemize}
 		\end{cvsubsection}
 		
-		\begin{cvsubsection}{Lead Student Ambassador}{Microsoft Corporation}{Fall 2003 -- Spring 2005}	
+		\begin{cvsubsection}[2]{Computer Vision \& Machine Learning Engineer}{Nect GmbH}{Dec 2019 -- June 2022}	
 			\begin{itemize}
-				\item Promoted to Lead Student Ambassador in Fall 2004; supervised 10 -- 15 Student Ambassadors.
-				\item Created and taught Computer Science course, CSE 099: Software Design and Development.
+				\item Increased resilience and robustness of microservices stack stack by developing and deploying Message Queue system (Rabbit MQ + Redis) to replace existing REST over HTTP system for microservices.
+                \item Built microservices for detecting holograms (YOLO) \& stickers (Scikit learn) on ID documents, matching front + back of ID cards via text match (Tesseract + multiprocessing), Lipreading (Tensorflow). Served them via Flask REST APIs + Docker + Kubernetes.
+				\item Increased code-base maintainability by advocating for linting + testing tools and implementing them in CI pipelines.
 			\end{itemize}
 		\end{cvsubsection}
 		
-		\begin{cvsubsection}{Head Teaching Assistant}{University of Pennsylvania}{Fall 2001 -- Spring 2005}		
-			\begin{itemize}
-				\item Courses: Advanced Java III, Software Engineering, Mathematical Foundations of Computer Science I \& II.
-				\item Promoted to Head TA in Fall 2004; led weekly meetings and supervised four other TAs.
-			\end{itemize}
+		\begin{cvsubsection}{PhD Student}{DESY \& University of Hamburg}{Sept 2016 -- Sept 2019}
+            Theoretical Physics \hfill \textit{Thesis: Exact Results for $\mathcal{N}=1$ Theories of Class $\mathcal{S}_k$}\newline
+                Publications: https://inspirehep.net/authors/1643535.\newline
+                Thesis: https://ediss.sub.uni-hamburg.de/handle/ediss/6092
 		\end{cvsubsection}
 		
-		\begin{cvsubsection}{Software Design Engineer, Intern}{Microsoft Corporation}{Summers 2001 -- 2003}
-			Visual Studio Core (Summer 2003)		
+		\begin{cvsubsection}[2]{Software Development Intern}{Ultra Electronics Precision Control Systems}{Summers 2015 \& 2016}	
 			\begin{itemize}
-				\item Implemented a user interface for the VS open file switcher (ctrl-tab) and extended it to tool windows.
-				\item Created service to provide gradient across VS and VS add-ins. Optimized service via caching.
-			\end{itemize}
-			Programmer Productivity Research Center (Summers 2001, 2002)
-			\begin{itemize}
-				\item Built app to compute similarity of all methods in a code base; reduced time from $O(n^2)$ to $O(n\ log\ n)$. 
-				\item Created test case generation tool which creates random XML docs from XML Schema.
+				\item Customised Hexiwear device to integrate with main wearable tech product. (Java \& C++). Web development.
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
 	
 	\begin{cvsection}{Education}
-		\begin{cvsubsection}{Philadelphia, PA}{University of Pennsylvania}{Fall 2000 -- May 2005}
-			\begin{itemize}
-				\item M.S.E. in Computer and Information Science, May 2005. GPA: 3.6
-				\item B.S.E. in Computer Science Engineering with Minor in Mathematics, May 2005.  In-major GPA: 3.4.
-				\item Graduate Coursework: Software Foundations; Computer Architecture; Algorithms; Artificial Intelligence; Comparison of Learning Algorithms; Computational Theory.
-				\item Undergraduate Coursework: Operating Systems; Databases; Algorithms; Programming Languages; Comp. Architecture; Engineering Entrepreneurship; Calculus III.
+ 		\begin{cvsubsection}{Hamburg, Germany}{DESY \& University of Hamburg}{Sept 2016 -- Sept 2019}
+            \begin{itemize}
+				\item \textbf{PhD, Theoretical Physics}\hfill \textit{Magna Cum Laude}
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Cambridge, UK}{University of Cambridge}{Sept 2015 -- May 2016}
+            \begin{itemize}
+				\item \textbf{MASt, Applied Mathematics (Part III of the Mathematical Tripos)} \hfill \textit{Grade: Distinction}\linebreak
+                A one-year Masters-level taught course in mathematics. It is regarded as one of the hardest and most intensive mathematics courses in the world.
+			\end{itemize}
+		\end{cvsubsection}
+  		\begin{cvsubsection}{Swansea, UK}{Swansea University}{Sept 2011 -- May 2015}
+            \begin{itemize}
+				\item \textbf{MPhys (MSc + BSc), Theoretical Physics} \hfill \textit{1st Class Hons.}
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
-	
-	\begin{cvsection}{Technical Experience}
-		\begin{cvsubsection}{Projects}{}{}
+
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
 			\begin{itemize}
-				\item \textbf{Multi-User Drawing Tool} (2004). Electronic classroom where multiple users can view and simultaneously draw on a “chalkboard” with each person’s edits synchronized.  C++, MFC
-				\item \textbf{Synchronized Calendar} (2003 – 2004). Desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users.  C\#.NET, SQL, XML
-				\item \textbf{Operating System} (2002).  UNIX-style OS with scheduler, file system, text editor and calculator. C
+				\item Python; SQL; Yaml; \LaTeX; Java; 
+				\item NumPy; Pandas; Tensorflow; Scikit learn; FastAPI/Flask; Dagster;
+                \item Git; Kubernetes; RabbitMQ; Redis; Gitlab CI; 
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
@@ -99,20 +100,10 @@
 	\begin{cvsection}{Additional Experience and Awards}
 		\begin{cvsubsection}{}{}{}	
 			\begin{itemize}
-				\item \textbf{Instructor (2003 – 2005):} Taught two full-credit Computer Science courses; average ratings of 4.8 out of 5.0.
-				\item \textbf{Third Prize, Senior Design Projects:} Awarded 3rd prize for Synchronized Calendar project, out of 100 projects.
+                \item Prize for Best Student at Level M, Swansea University 2015
+                \item The PM Davidson Prize for Best Theoretical Physics Project, Swansea University 2015
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
-	
-	\begin{cvsection}{Languages and Technologies}
-		\begin{cvsubsection}{}{}{}	
-			\begin{itemize}
-				\item C++; C; Java; Objective-C; C\#.NET; SQL; JavaScript; XSLT; XML (XSD) Schema 
-				\item Visual Studio; Microsoft SQL Server; Eclipse; XCode; Interface Builder
-			\end{itemize}
-		\end{cvsubsection}
-	\end{cvsection}
-	
 \end{document}
 
